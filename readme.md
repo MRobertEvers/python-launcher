@@ -2,11 +2,16 @@
 
 ## Visual Studio Solution
 
+### Build Output
+
 Good read on how to copy output to the appropriate directory. [https://social.technet.microsoft.com/wiki/contents/articles/53248.visual-studio-copying-files-to-debug-or-release-folder.aspx]
 
 ```
 copy "$(OutDir)\launcher.exe" $(SolutionDir)..
 ```
+### Icon
+
+[https://stackoverflow.com/questions/2393863/set-an-exe-icon-for-my-program]
 
 ## Virtual Environment
 
