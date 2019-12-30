@@ -8,6 +8,7 @@ Good read on how to copy output to the appropriate directory. [https://social.te
 
 ```
 copy "$(OutDir)\launcher.exe" $(SolutionDir)..
+copy "$(OutDir)$(TargetFileName)" $(SolutionDir)..
 ```
 ### Icon
 
